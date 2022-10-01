@@ -1,0 +1,99 @@
+@media only screen and (max-device-width: 900px) {
+  /* .menu { width:100%; } */
+  }
+  @media (hover: hover) {
+  .contact li:hover,
+  .contact a:hover {
+    color: var(--hover-color);
+    transition: 0.4s ease-in-out;
+  }
+
+  .main .projects img:hover {
+    opacity: 80%;
+    transition: 0.4s ease-in-out;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .header,
+  .contact,
+  .main {
+    width: 50rem;
+    margin-bottom: 3rem;
+  }
+
+  .contact .links li {
+    font-size: 2rem;
+  }
+
+  .main {
+    margin: 0 auto;
+  }
+
+  .main .projects li {
+    width: 35rem;
+    margin-bottom: 4rem;
+  }
+
+  .main .projects img {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .main .projects figure {
+    margin-top: 2.2rem;
+  }
+
+  .footer {
+    padding: 2rem;
+  }
+
+  .paw-icon {
+    margin: 0 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header,
+  .contact,
+  .main {
+    width: 35rem;
+  }
+
+  .contact .links li {
+    font-size: 1.8rem;
+  }
+
+  .main .projects img {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .main .projects figure {
+    margin-top: 3rem;
+  }
+
+  .footer {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 395px) {
+  .header,
+  .contact,
+  .main {
+    width: 32rem;
+  }
+
+  .main .projects figure {
+    margin-top: 2rem;
+  }
+}

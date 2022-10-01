@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Edlayne Oliveira" />
+    <meta name="description" content="Edlayne Oliveira." />
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+    <link
+      rel="shortcut icon"
+      href="src/images/2521196.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Edlayne Oliveira</title>
+  </head>
+  <body>
+    <div id = "menu">
+        <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Quem sou eu</a></li>
+         <li><a href="#">Hobbie/ Interesses</a></li>
+          <li><a href="#">Redes Sociais</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <header class="header">
+        <h1>Edlayne Oliveira</h1>
+        <img
+          class="profile-pic"
+          src="src/images/profile-pic.jpeg"
+          alt="Foto de perfil de Edlayne Oliveira"
+        />
+        <h3>Aluna de programação</h3>
+      </header>
+      <nav class="contact">
+        <div class="contact-container">
+          <h2 class="title">Redes Sociais</h2>
+        </div>     
+        <div>   
+        <ul class="links">
+          <li>
+            <i class="fa-brands fa-linkedin"></i>
+            <a
+              href="https://www.linkedin.com/in/edlayne-oliveira-745385171"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <i class="fa-brands fa-github" (color: rgb(6, 6, 6))></i>
+            <a href="https://github.com/EdlayneOliveiraa" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:edlayne1996@gmail.com" target="_blank"
+              >E-mail</a
+            >
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/edlayneoliveira_" target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <i class="fa-brands fa-discord"></i>
+            <a
+              href="https://discord.com/users/Edlayne Oliveira#8642"
+              target="_blank"
+              >Discord</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <main class="main">
+        <section class="about">
+          <h2>Quem sou eu:</h2>
+          <p>
+            Olá! Meu nome é Edlayne, tenho 26 anos e sou natural de Rio de Janeiro-RJ. Sou estudante de programação.
+          </p><br>
+          <br />
+          <p>
+            Já fiz técnico em Informática integrado ao Ensino Médio, porém não terminei, pois comecei a trabalhar no setor adminstrativo que durou 7 anos, onde me formei em Técnica em Administração.
+          </p>
+        
+        </section>
+        <section class="about">
+          <h2>Hobbie:</h2>
+          <p>
+            As coisas que mais gosto de fazer são ver série/filmes, ir ao cinema, passear, ouvir música, jogar e viajar (apesar de quase nunca fazer)!
+          </p>          
+        </section>
+        <section class="formulario-contato">
+          <h1>Entre em contato:</h1>
+          <ul>
+            <li><form action="/formulario-contato" method="post">
+              <div>
+                  <label for="nome">Nome:</label>
+                  <input type="texto" id="nome" name="nome_usuario">
+              </div>
+              <div>
+                  <label for="email">E-mail:</label>
+                  <input type="email" id="email" name="email_usuario">
+              </div>
+              <div style='text-align:center'>
+                  <label for="texto">Texto:</label>
+                  <textarea id="texto" name="texto_usuario"></textarea>                
+              </div>
+          </form><div class="button">
+              <button type="submit">Enviar</button>
+            </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
